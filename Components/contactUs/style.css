@@ -1,0 +1,51 @@
+.social-disc li a{
+    padding-left: 6.6rem;
+    height: 50px;
+    background: url(../../Assets/basicLogoMain.png) no-repeat;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+}
+
+.social-disc li a.facebook {
+    background-position: 0px -547px;
+    color: #43609c;
+}
+.social-disc li a.linkedin {
+    background-position: 0px -700px;
+    color: #0982c0;
+}
+.social-disc li a.instagram {
+    background-position: 0px -751px;
+    color: #ef0074;
+}
+.social-disc li{
+    width: 50%;
+    margin-bottom: 2em;
+}
+.social-disc {
+    list-style-type: none;
+}
+.contactContainer{
+    margin: 2em;
+}
+.avatar img {
+    width: 100%;
+    height: auto;
+}
+.content h1{
+    font-size: 13.7vw;
+}.content p {
+    font-size: 4vw;
+}
+
+@media only screen and (min-width: 830px) {
+    .content h1{
+        font-size: 5vw;
+    }.content p {
+        font-size: 2vw;
+    }
+    .contactContainer{
+        justify-content: center;
+    }
+}

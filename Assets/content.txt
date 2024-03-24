@@ -1,0 +1,48 @@
+Main
+
+I am a Full stack developer based in Ecolab, Bengaluru.
+
+Since 2022, I've enjoyed building cloud-native solutions that enrich life.
+I am a software craftsman who develops products with agility.
+
+And when I'm not pushing versions in Git, I'm either dancing, baking, or crafting-turning hobbies into delightful surprises!
+
+Skills
+
+SAAS Services
+- MSSQL
+- Azure Database
+- Mongo DB
+- Github
+- Microservices
+- SOA
+
+Programming
+- C#
+- Dotnet
+- Golang
+- Rust(kinda)
+- Git
+- Nunit,Nsubstitute
+
+
+
+Random facts -
+
+Created and commanded an army of microservices
+Creator of fruit infused chocolates 
+Full time Azure Ninja
+Conquering the ancient •NET in battlefield
+Coffee: my constant companion.
+Dance is my happy place, my sanctuary.
+Unit testing? No headache here.
+
+How I spend my day
+
+1. Overthinking
+2. Sipping coffee
+3. meetings
+4. Coding 
+5. Fixing Bugs
+
+My story

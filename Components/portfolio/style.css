@@ -1,0 +1,27 @@
+.portfolioItem img{
+    width: 40%;
+    height: auto;
+}
+.portfolioItem .content{
+    width: 40%;
+}
+.portfolioItem{
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    background-color: tan;
+
+}
+.portfolioItem .content button{
+    background-color: #7C57E310;
+    color: #7C57E3;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.portfoliolist .portfolioItem:nth-child(odd){
+    flex-direction: row-reverse;
+}
