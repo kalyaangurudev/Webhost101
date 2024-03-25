@@ -1,0 +1,43 @@
+.landingscreen{
+    flex-direction: column;
+    padding: 0 80px;
+    margin-top: 120px;
+}
+
+.landingscreen h5{
+    font-family: MetroBold;
+    font-size: 5vw;
+    margin-bottom: 8px;
+}
+.landingscreen p{
+    font-family: MetroLight;
+    font-size: 2vw;
+    line-height: 2;
+    margin: 8px 0 20px 0;
+}
+.landingscreen a{
+    text-decoration: none;
+    color: #e23744;
+}
+
+.landingscreen .cta{
+    flex-direction: column;
+    width: fit-content;
+    text-align: center;
+    font-family: MetroBold;
+    font-size: 2vw;
+}
+
+.landingscreen .cta a{
+    background-color: #e2374420;
+    padding: 16px 0;
+    border-radius: 12px;
+}
+
+.landingscreen .cta a:hover{
+    background-color: #e2374440;
+}
+
+body{
+    background-color: #f4f4f2;
+}

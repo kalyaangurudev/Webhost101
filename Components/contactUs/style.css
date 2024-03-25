@@ -26,26 +26,25 @@
 .social-disc {
     list-style-type: none;
 }
-.contactContainer{
-    margin: 2em;
-}
+
 .avatar img {
     width: 100%;
     height: auto;
 }
 .content h1{
-    font-size: 13.7vw;
-}.content p {
-    font-size: 4vw;
+    font-family: MetroBold;
+    font-size: 7vw;
+    margin-bottom: 8px;
+}.content h5 {
+    font-family: MetroLight;
+    font-size: 2vw;
+    margin-bottom: 24px;
+    line-height: 1.3;
+}
+.contactContainer{
+    justify-content: space-evenly;
 }
 
-@media only screen and (min-width: 830px) {
-    .content h1{
-        font-size: 5vw;
-    }.content p {
-        font-size: 2vw;
-    }
-    .contactContainer{
-        justify-content: center;
-    }
+body{
+    background-color: #f4f4f2;
 }
