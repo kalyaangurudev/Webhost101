@@ -1,27 +1,52 @@
 .portfolioItem img{
-    width: 40%;
-    height: auto;
+    width: 35%;
+    height: 300px;
+    border-radius: 12px;
 }
 .portfolioItem .content{
-    width: 40%;
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
 }
 .portfolioItem{
-    align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-    padding: 20px;
-    background-color: tan;
+    box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 25px;
+    background-color: #f4f4f2;
 
 }
+.portfolioItem .content h2{
+    font-family: MetroBold;
+    font-size: 5vw;
+    margin-bottom: 8px;
+}
+.portfolioItem .content .description{
+    text-align: justify;
+    font-size: 1.15vw;
+    margin-bottom: 20px;
+}
 .portfolioItem .content button{
-    background-color: #7C57E310;
-    color: #7C57E3;
+    background-color: #e2374420;
+    color: #e23744;
     border: none;
     padding: 8px 16px;
     border-radius: 8px;
+    width: min-content;
+}
+.portfolioItem .content .tools{
+    color: #e23744;;
+}
+.portfolioItem .content button:hover{
+    background-color: #e2374440;
 }
 .portfoliolist .portfolioItem:nth-child(odd){
     flex-direction: row-reverse;
+}
+
+.portfolioItem .portfolioItem:nth-child(odd) .content{
+    align-items: start;
 }
