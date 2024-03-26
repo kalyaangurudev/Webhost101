@@ -96,6 +96,11 @@ header nav li a {
     display: flex;
     justify-content: space-between;
 }
+
+header nav li a:hover{
+    color:#e23744;
+}
+
 @media only screen and (min-width: 830px){
  header{
     background: #161A1F;
@@ -103,7 +108,7 @@ header nav li a {
  }
  
  .logo {
-    background-image: url(../../Assets_kg/ts_logo/round_blue.png);
+    background-image: url(../../Assets_kg/ts_logo/white.png);
     display: block;
     background-position: center;
     background-repeat: no-repeat;
@@ -117,7 +122,7 @@ header nav li a {
  header nav {
     float: right;
     display: block;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     position: static;
     background: transparent;
     width: auto;

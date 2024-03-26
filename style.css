@@ -1,24 +1,34 @@
 .landingscreen{
-    flex-direction: column;
     padding: 0 80px;
     margin-top: 26vh;
 }
 .landingscreen h5{
     font-family: MetroBold;
+    width: 100%;
     font-size: 5vw;
     margin-bottom: 8px;
 }
-.landingscreen p{
+.landingscreen .getToKnowme{
     font-family: MetroLight;
     font-size: 2vw;
     line-height: 2;
     margin: 8px 0 20px 0;
+    color: #2d2d2d;
+}
+.landingscreen .getToKnowme:hover{
+    text-decoration: underline;
 }
 .landingscreen a{
     text-decoration: none;
     color: #e23744;
 }
-
+.landingscreen .SocialLogos img{
+    width: 10%;
+    height: auto;
+}
+.landingscreen .SocialLogos img:first-child{
+    margin-right: 20px;
+}
 .landingscreen .cta{
     flex-direction: column;
     width: fit-content;
@@ -27,13 +37,13 @@
     font-size: 2vw;
 }
 
-.landingscreen .cta a{
+.landingscreen .cta #work{
     background-color: #e2374420;
     padding: 16px 0;
     border-radius: 12px;
 }
 
-.landingscreen .cta a:hover{
+.landingscreen .cta #work:hover{
     background-color: #e2374440;
 }
 
