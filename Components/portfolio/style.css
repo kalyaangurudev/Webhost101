@@ -50,3 +50,19 @@
 .portfolioItem .portfolioItem:nth-child(odd) .content{
     align-items: start;
 }
+
+.resumelink{
+    width: 100%;
+}
+.resumelink a{
+    background-color:#481D8A40;
+    padding: 16px;
+    border-radius: 12px;
+    color: #481D8A;
+    font-family: MetroBold;
+    font-size: 1.2vw;
+}
+
+.resumelink a:hover{
+    background-color:#481D8A60;
+}
