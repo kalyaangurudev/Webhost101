@@ -29,16 +29,58 @@
     font-size: 1.15vw;
     margin-bottom: 20px;
 }
+#ecolab button{
+    color: #226EFE;
+    background-color: #226EFE40;
+}
+#ecolab button:hover{
+    background-color: #226EFE60;
+}
+#ecolab h2, #ecolab .tools{
+    color: #226EFE;
+}
+
+#astonmartin button{
+    color: #0B4A3F;
+    background-color: #0B4A3F40;
+}
+#astonmartin button:hover{
+    background-color: #0B4A3F60;
+}
+#astonmartin h2, #astonmartin .tools{
+    color: #0B4A3F;
+}
+
+#ferrari button{
+    color: #c80003;
+    background-color: #c8000330;
+}
+#ferrari button:hover{
+    background-color: #c8000350;
+}
+#ferrari h2, #ferrari .tools{
+    color: #c80003;
+}
+
+#mclaren button{
+    color: #F18417;
+    background-color: #F1841740;
+}
+#mclaren button:hover{
+    background-color: #F1841760;
+}
+#mclaren h2, #mclaren .tools{
+    color: #F18417;
+}
+
 .portfolioItem .content button{
-    background-color: #e2374420;
-    color: #e23744;
     border: none;
     padding: 8px 16px;
     border-radius: 8px;
     width: min-content;
 }
 .portfolioItem .content .tools{
-    color: #e23744;;
+    color: #686868;;
 }
 .portfolioItem .content button:hover{
     background-color: #e2374440;
@@ -65,3 +107,4 @@
 .resumelink a:hover{
     background-color:#481D8A60;
 }
+
