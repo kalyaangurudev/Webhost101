@@ -65,6 +65,7 @@ header {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    width: 95%;
 }
 
 header nav li a:hover{
@@ -73,7 +74,8 @@ header nav li a:hover{
 
 header{
     background: #161A1F;
-    height: 92px;
+    height: 7vw;
+    display: flex;
 }
  
 .logo {
@@ -82,14 +84,14 @@ display: block;
 background-position: center;
 background-repeat: no-repeat;
 background-size: contain;
-width: 70px;
-height: 70px;
+width: 4.8vw;
+height: 4.8vw;
 }
 
 header nav {
 float: right;
 display: block;
-font-size: 1.2rem;
+font-size: 1.3vw;
 position: static;
 background: transparent;
 width: auto;
@@ -98,13 +100,11 @@ header nav li {
 display: inline-block;
 float: left;
 position: relative;
-height: 92px;
 border: 0px;
 }
 header nav li a {
 display: block;
 color: #FFF;
-line-height: 92px;
 padding: 0 1em;
 text-decoration: none;
 }
