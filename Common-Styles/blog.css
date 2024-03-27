@@ -1,6 +1,27 @@
+
 .blogtemplate{
     max-width: 50%;
-    margin: 0 auto;
+    margin: 94px auto ;
+}
+
+.blogtemplate .blogcontent{
+    font-family: MetroLight;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+}
+
+.blogtemplate h2{
+    font-family: MetroLight;
+    font-size: 4.6rem;
+    margin-bottom: 16px;
+}
+
+.blogtemplate p{
+    font-family: MetroLight;
+    color: #686868;
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 .blogImage {
@@ -30,4 +51,6 @@
     display: block;
     margin-bottom: 5px;
     margin-left: 8px;
+    font-family: MetroLight;
+    font-size: 1.3rem;
 }
