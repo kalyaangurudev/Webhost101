@@ -1,0 +1,33 @@
+.blogtemplate{
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.blogImage {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+}
+
+.authorCard{
+    display: flex;
+    align-items: center;
+}
+.authorCard .avatar{
+    border-radius: 50%;
+    border: 2px solid #686868;
+    background-image: url(../Assets/new_main_pic.png);
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 64px;
+    height: 64px;
+}
+.authorTitle span{
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 8px;
+}
