@@ -100,8 +100,8 @@
     background-color: white;
     box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
-    border: #f4f4f2 8px solid;
-    padding: 20px;
+    border: #f4f4f2 .5vw solid;
+    padding: 1.4vw;
     width: 35%;
 }
 
@@ -136,8 +136,8 @@
     top: 0;
     bottom: 0;
     right: 0;
-    width: 45px;
-    height: 45px;
+    width: 3.2vw;
+    height: 3.2vw;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -172,4 +172,5 @@
 
 .mystory .content a{
     color: #e23744;
+    font-size: 1.2vw;
 }

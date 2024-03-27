@@ -1,6 +1,6 @@
 .portfolioItem img{
     width: 35%;
-    height: 300px;
+    height: auto;
     border-radius: 12px;
 }
 .portfolioItem .content{
@@ -98,7 +98,7 @@
 }
 .resumelink a{
     background-color:#481D8A40;
-    padding: 16px;
+    padding: 1vw;
     border-radius: 12px;
     color: #481D8A;
     font-size: 1.4vw;
