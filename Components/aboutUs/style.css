@@ -145,11 +145,11 @@
 }
 
 .programming p::after{
-    background-image: url(../../Assets_kg/portfolio/skills_icon/Text.svg);
+    background-image: url(../../Assets/portfolio/skills_icon/Text.svg);
 }
 
 .services p::after{
-    background-image: url(../../Assets_kg/portfolio/skills_icon/System.svg);
+    background-image: url(../../Assets/portfolio/skills_icon/System.svg);
 }
 /* fonts */
 

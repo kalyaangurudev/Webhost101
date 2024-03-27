@@ -88,7 +88,7 @@ header nav li a {
     background-position: -32px -186px;
 }
 .social .linkedin a {
-    background-image: url(../../Assets_kg/ts_logo/round_blue.png);
+    background-image: url(../../Assets/ts_logo/round_blue.png);
     display: block;
     background-position: center;
     background-repeat: no-repeat;
@@ -117,7 +117,7 @@ header nav li a:hover{
  }
  
  .logo {
-    background-image: url(../../Assets_kg/ts_logo/white.png);
+    background-image: url(../../Assets/ts_logo/white.png);
     display: block;
     background-position: center;
     background-repeat: no-repeat;

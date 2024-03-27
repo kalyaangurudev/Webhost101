@@ -45,13 +45,13 @@
     font-size: 1.7vw;
 }
 .socialIcons #gmail{
-    background-image: url(../../Assets_kg/social_icons/email/Gmail_Logo.png);
+    background-image: url(../../Assets/social_icons/email/Gmail_Logo.png);
 }
 .socialIcons #github{
-    background-image: url(../../Assets_kg/social_icons/github/Frame\ 5.png);
+    background-image: url(../../Assets/social_icons/github/Frame\ 5.png);
 }
 .socialIcons #linkedin{
-    background-image: url(../../Assets_kg/social_icons/linkedin/Frame\ 3.png);
+    background-image: url(../../Assets/social_icons/linkedin/Frame\ 3.png);
 }
 
 .socialIcons #gmail::after{
