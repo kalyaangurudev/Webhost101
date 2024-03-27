@@ -3,27 +3,17 @@
     padding:0;
     text-decoration: none;
 }
-.logo {
-    height: 62px;
-    width: 40px;
-    background: url(../../Assets/naviconMob.png) 0px -63px no-repeat;
-    background-size: 200px 500px;
-    display: block;
-    text-indent: -9999px;
-    float: left;
-}
+
 .icon-nav {
     width: 27px;
     height: 62px;
     float: right;
     background: url(../../Assets/naviconMob.png) -42px -63px no-repeat;
     background-size: 200px 500px;
-    display: block;
+    display: none;
     text-indent: -9999px;
 }
 header {
-    background: #111;
-    height: 62px;
     padding: 0 5%;
     width: 90%;
     position: relative;
@@ -38,35 +28,6 @@ header {
     from { top: -100px; }
     to { top: 0; }
 }
-
-header nav {
-    display: none;
-    background: #222222;
-    position: absolute;
-    top: 62px;
-    right: 0px;
-    z-index: 1000;
-    width: 100%;
-    font-size: 24px;
-    text-align: center;
-}
-
-header nav li {
-    height: 6.4rem;
-    list-style: none;
-    display: block;
-    border-top: #212121 solid 1px;
-    border-bottom: #363636 solid 1px;
-}
-
-header nav li a {
-    display: block;
-    color: #FFF;
-    line-height: 6.4rem;
-    text-decoration: none;
-    text-transform: lowercase;
-}
-
 
 .social li {
     display: inline-block;
@@ -110,45 +71,41 @@ header nav li a:hover{
     color:#e23744;
 }
 
-@media only screen and (min-width: 830px){
- header{
+header{
     background: #161A1F;
     height: 92px;
- }
- 
- .logo {
-    background-image: url(../../Assets/ts_logo/white.png);
-    display: block;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 70px;
-    height: 70px;
- }
- header .icon-nav {
-    display: none;
- }
- header nav {
-    float: right;
-    display: block;
-    font-size: 1.2rem;
-    position: static;
-    background: transparent;
-    width: auto;
- }
- header nav li {
-    display: inline-block;
-    float: left;
-    position: relative;
-    height: 92px;
-    border: 0px;
- }
- header nav li a {
-    display: block;
-    color: #FFF;
-    line-height: 92px;
-    padding: 0 1em;
-    text-decoration: none;
- }
-
 }
+ 
+.logo {
+background-image: url(../../Assets/ts_logo/white.png);
+display: block;
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+width: 70px;
+height: 70px;
+}
+
+header nav {
+float: right;
+display: block;
+font-size: 1.2rem;
+position: static;
+background: transparent;
+width: auto;
+}
+header nav li {
+display: inline-block;
+float: left;
+position: relative;
+height: 92px;
+border: 0px;
+}
+header nav li a {
+display: block;
+color: #FFF;
+line-height: 92px;
+padding: 0 1em;
+text-decoration: none;
+}
+
