@@ -30,7 +30,7 @@ header {
     z-index: 1000;
     /* animation */
     animation-name: navigationSlideDown;
-    animation-duration: 3s;
+    animation-duration: 1.5s;
 }
 
 

@@ -1,30 +1,6 @@
-.social-disc li a{
-    padding-left: 6.6rem;
-    height: 50px;
-    background: url(../../Assets/basicLogoMain.png) no-repeat;
-    align-items: center;
+.avatar{
     display: flex;
-    text-decoration: none;
-}
-
-.social-disc li a.facebook {
-    background-position: 0px -547px;
-    color: #43609c;
-}
-.social-disc li a.linkedin {
-    background-position: 0px -700px;
-    color: #0982c0;
-}
-.social-disc li a.instagram {
-    background-position: 0px -751px;
-    color: #ef0074;
-}
-.social-disc li{
-    width: 50%;
-    margin-bottom: 2em;
-}
-.social-disc {
-    list-style-type: none;
+    align-items: end;
 }
 
 .avatar img {
@@ -43,8 +19,53 @@
 }
 .contactContainer{
     justify-content: space-evenly;
+    padding-bottom: 0;
+    background-color: #f4f4f2;
 }
 
-body{
-    background-color: #f4f4f2;
+.socialIcons {
+    flex-direction: column;
+    line-height: 3;
+}
+
+.socialIcons a{
+    color: #2d2d2d;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 45px;
+    height: 45px;
+    margin-bottom: 10px;
+}
+.socialIcons a::after{
+    padding-left:80px;
+    font-family: MetroBold;
+    font-size: 1.7vw;
+}
+.socialIcons #gmail{
+    background-image: url(../../Assets_kg/social_icons/email/Gmail_Logo.png);
+}
+.socialIcons #github{
+    background-image: url(../../Assets_kg/social_icons/github/Frame\ 5.png);
+}
+.socialIcons #linkedin{
+    background-image: url(../../Assets_kg/social_icons/linkedin/Frame\ 3.png);
+}
+
+.socialIcons #gmail::after{
+    content: "Gmail";
+}
+
+.socialIcons #github::after{
+    content: "GitHub";
+}
+
+.socialIcons #linkedin::after{
+    content: "LinkedIn";
+}
+
+.socialIcons a:hover{
+    color: #e23744;
 }
