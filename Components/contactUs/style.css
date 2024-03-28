@@ -35,12 +35,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 45px;
-    height: 45px;
+    width: 3.2vw;
+    height: 3.2vw;
     margin-bottom: 10px;
 }
 .socialIcons a::after{
-    padding-left:80px;
+    padding-left:5.5vw;
     font-family: MetroBold;
     font-size: 1.7vw;
 }

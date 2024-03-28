@@ -1,14 +1,17 @@
-.portfolioItem img{
-    width: 35%;
+.imageContainer img{
+    width: 100%;
     height: auto;
     border-radius: 12px;
+}
+.imageContainer{
+    width: 50%;
 }
 .portfolioItem .content{
     align-items: end;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 60%;
+    width: 48%;
 }
 .portfolioItem{
     justify-content: space-between;
@@ -25,8 +28,8 @@
     margin-bottom: 8px;
 }
 .portfolioItem .content .description{
-    text-align: justify;
-    font-size: 1.15vw;
+    font-size: 1.25vw;
+    line-height: 1.4;
     margin-bottom: 20px;
 }
 #ecolab button{
@@ -77,10 +80,12 @@
     border: none;
     padding: 8px 16px;
     border-radius: 8px;
-    width: min-content;
+    width: max-content;
+    font-size: 1vw;
 }
 .portfolioItem .content .tools{
-    color: #686868;;
+    color: #686868;
+    margin-bottom: 5px;
 }
 .portfolioItem .content button:hover{
     background-color: #e2374440;
@@ -89,8 +94,9 @@
     flex-direction: row-reverse;
 }
 
-.portfolioItem .portfolioItem:nth-child(odd) .content{
+.portfoliolist .portfolioItem:nth-child(odd) .content{
     align-items: start;
+    
 }
 
 .resumelink{

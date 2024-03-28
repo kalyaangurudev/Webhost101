@@ -22,6 +22,10 @@
 
 .portfoliolist img{
     width: 60%;
-    border: 8px #68686840 solid;
+    border: .5vw #68686840 solid;
     border-radius: 10px;
+    box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.portfoliolist img:hover{
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
 }
