@@ -177,7 +177,7 @@
 
 /* mobile design */
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 960px) {
     .aboutusContainer h1{
         font-size: 22vw;
     }

@@ -57,7 +57,7 @@
 }
 /* mobile style */
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 960px) {
     .blogtemplate{
         max-width: 100%;
         margin: 36px 0;
