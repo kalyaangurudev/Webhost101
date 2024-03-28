@@ -11,7 +11,8 @@
 .col-3{width:25%}
 .col-2{width:16.66666667%}
 .col-1{width:8.33333333%}
-@media only screen and (max-width:1020px){.col-sm-12{width:100%}
+@media only screen and (max-width:768px){
+.col-sm-12{width:100%}
 .col-sm-11{width:91.66666667%}
 .col-sm-10{width:83.33333333%}
 .col-sm-9{width:75%}
