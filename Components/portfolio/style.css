@@ -118,7 +118,7 @@
 
 
 /* Mobile devices */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 770px) {
     .aboutusContainer h1{
         font-size: 18vw;
     }

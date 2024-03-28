@@ -52,7 +52,7 @@ body{
 }
 
 /* mobile style */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 770px) {
     .landingscreen h5{
         font-size: 10vw;
     }

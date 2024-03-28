@@ -71,7 +71,7 @@
 }
 
 /* mobile design */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 770px) {
     .contactContainer .content h1{
         font-size: 18vw;
     }
