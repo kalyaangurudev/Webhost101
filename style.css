@@ -50,3 +50,17 @@
 body{
     background-color: #f4f4f2;
 }
+
+/* mobile style */
+@media only screen and (max-width: 768px) {
+    .landingscreen h5{
+        font-size: 10vw;
+    }
+    .landingscreen .getToKnowme,.landingscreen .cta{
+        font-size: 4vw;
+    }
+    .landingscreen .cta #work{
+        padding: 2vw 0;
+    }
+
+}
