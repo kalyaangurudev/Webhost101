@@ -82,6 +82,7 @@
     border-radius: 8px;
     width: max-content;
     font-size: 1vw;
+    cursor: pointer;
 }
 .portfolioItem .content .tools{
     color: #686868;
