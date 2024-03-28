@@ -55,3 +55,18 @@
     font-family: MetroLight;
     font-size: 1.3rem;
 }
+/* mobile style */
+
+@media only screen and (max-width: 768px) {
+    .blogtemplate{
+        max-width: 100%;
+        margin: 36px 0;
+        padding: 0 5%;
+    }
+    .blogtemplate h2 {
+        font-size: 7vw;
+    }
+    .blogtemplate p{
+        font-size: 5vw;
+    }
+}

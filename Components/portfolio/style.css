@@ -115,3 +115,46 @@
     background-color:#481D8A60;
 }
 
+
+
+/* Mobile devices */
+@media only screen and (max-width: 768px) {
+    .aboutusContainer h1{
+        font-size: 18vw;
+    }
+    .aboutusContainer h5{
+        font-size: 7vw;
+    }
+    .aboutusContainer p{
+        font-size: 5vw;
+    }
+    .resumelink{
+        justify-content: center;
+    }
+    .resumelink a{
+        font-size: 7vw;
+        border-radius: 6px;
+        padding: 3vw;
+        margin-top: 5px;
+    }
+    .imageContainer{
+        width: 100%;
+    }
+    .portfolioItem .content{
+        width: 100%;
+        align-items: start;
+    }
+    .portfolioItem .content h2{
+        font-size: 9vw;
+    }
+    .portfolioItem .content .description, .portfolioItem .content .tools{
+        font-size: 3.3vw;
+    }
+    .portfolioItem .content button{
+        font-size: 3.5vw;
+    }
+    .portfolioItem{
+        padding: 3vw;
+    }
+
+}

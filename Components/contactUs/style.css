@@ -69,3 +69,22 @@
 .socialIcons a:hover{
     color: #e23744;
 }
+
+/* mobile design */
+@media only screen and (max-width: 768px) {
+    .contactContainer .content h1{
+        font-size: 18vw;
+    }
+    .contactContainer .content h5{
+        font-size: 7vw;
+    }
+    .socialIcons a{
+        margin-bottom: 15px;
+        width: 6vw;
+        height: 6vw;
+    }
+    .socialIcons a::after{
+        font-size: 5vw;
+        padding-left: 9vw;
+    }
+}

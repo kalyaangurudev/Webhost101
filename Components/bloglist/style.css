@@ -29,3 +29,13 @@
 .portfoliolist img:hover{
     box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
 }
+
+/* mobile style */
+@media only screen and (max-width: 768px) {
+    .aboutusContainer h1{
+        font-size: 13vw;
+    }
+    .portfoliolist img{
+        width: 100%;
+    }
+}
