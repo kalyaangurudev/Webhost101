@@ -167,10 +167,86 @@
 .aboutusContainer p{
     font-size: 1.2vw;
     line-height: 1.5;
-    text-align: justify;
 }
 
 .mystory .content a{
     color: #e23744;
     font-size: 1.2vw;
 }
+
+
+/* mobile design */
+
+@media only screen and (max-width: 768px) {
+    .aboutusContainer h1{
+        font-size: 22vw;
+    }
+    .aboutusContainer h5{
+        font-size: 7vw;
+    }
+    .aboutusContainer p{
+        font-size: 5vw;
+    }
+    .imageframe{
+        width: 45%;
+        margin-bottom: 8px;
+    }
+    .imageframe img{
+        border-width: 5px;
+    }
+    .skillContainer h2{
+        font-size: 36px;
+        text-align: center;
+    }
+    .skillContainer{
+        justify-content: center;
+    }
+    .skillContainer > div {
+        width: 65%;
+        margin-bottom: 15px;
+    }
+    .skillContainer > div p{
+        font-size: 5.5vw;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .skillContainer > div ul{
+        font-size: 4.3vw;
+        text-align: center;
+        list-style-type: none;
+    }
+    .skillContainer > div p::after{
+        width: 25px;
+        height: 25px;
+    }
+    .randomFacts .content h2{
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .randomFacts .content li{
+        font-size: 4.3vw;
+        text-align: center;
+    }
+    .mystory .content h2{
+        font-size: 36px;
+        text-align: center;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+    .mystory .content p,.mystory .content a{
+        font-size: 4.3vw;
+        line-height: 1.5;
+    }
+    .mystory{
+        flex-direction: column-reverse;
+    }
+    .mystory .content{
+        width: 100%;
+    }
+    .mystory .mystoryPic{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+  }
