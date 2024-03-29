@@ -1,8 +1,25 @@
 .avatar{
     display: flex;
     align-items: end;
+    position: relative;
+    animation-name: aboutContentright;
+    animation-duration: 1s;
+    animation-timing-function: ease-in; 
 }
-
+@keyframes aboutContentright{
+    from { right: -500px; }
+    to { right: 0; }
+}
+.contactContainer .content{
+    animation-name: aboutContentleft;
+    animation-timing-function: ease-in; 
+    animation-duration: 1s;
+    position: relative;
+}
+@keyframes aboutContentleft{
+    from { left: -500px; }
+    to { left: 0; }
+}
 .avatar img {
     width: 100%;
     height: auto;
