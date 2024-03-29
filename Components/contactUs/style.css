@@ -7,7 +7,7 @@
     animation-timing-function: ease-in; 
 }
 @keyframes aboutContentright{
-    from { right: -500px; }
+    from { right: -1500px; }
     to { right: 0; }
 }
 .contactContainer .content{
@@ -17,7 +17,7 @@
     position: relative;
 }
 @keyframes aboutContentleft{
-    from { left: -500px; }
+    from { left: -1500px; }
     to { left: 0; }
 }
 .avatar img {
