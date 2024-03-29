@@ -1,6 +1,19 @@
 .landingscreen{
     padding: 0 10vw;
     margin-top: 25vh;
+    position: relative;
+    opacity: 0;
+    animation: revealImages 3s forwards;
+    transition: opacity 0.5 ease;
+    animation-delay: 0.4s;
+}
+@keyframes revealImages {
+    0% {
+        opacity: 0; /* Start with opacity 0 */
+    }
+    100% {
+        opacity: 1; /* Sixth image fully revealed */
+    }
 }
 .landingscreen h5{
     font-family: MetroBold;
